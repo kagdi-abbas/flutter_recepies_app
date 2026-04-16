@@ -1,17 +1,32 @@
-# recepies_app
+# Flutter Recipes App  
+Flutter App to fetch cooking recepes from an API server.
+This project is inspired by Hussain Mustafa's API tutorial.  
+https://www.youtube.com/watch?v=5lDJNFSWUD8
 
-A new Flutter project.
+If you follow the tutorial verbatim, a lot of things may not work. This is my attempt at recreating this project in 2026.
+'dio' works great to replace http package.
+I used 'cherry_toast' package for alerts.
+
+Prerequisites  
+  
+- Flutter SDK (>= 3.x.x)
+- Dart (included with Flutter)
+- Android Studio / Xcode (for emulator or device deployment)
+- Git
+
+Verify Flutter setup:  
+bashflutter doctor
 
 ## Getting Started
+1. Clone the repository
+  bashgit clone https://github.com/kagdi-abbas/flutter_recepies_app.git  
+  cd flutter_recepies_app  
+2. Install dependencies  
+  bashflutter pub get  
+3. Run the app  
+  bashflutter run
+  
+## Dependencies
+ - dio
+ - cherry_toast
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
